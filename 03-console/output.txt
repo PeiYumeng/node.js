@@ -1,0 +1,6 @@
+name:xiaomeng
+age:20
+JSON:{"name":"xiaomeng","age":20,"qq":"457492875"}
+qq:457492875
+qq:457492875
+qq:457492875
