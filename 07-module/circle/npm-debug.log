@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'login' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 warn Name may not contain non-url-safe chars
+5 warn Name must be lowercase
+6 verbose stack Error: canceled
+6 verbose stack     at Interface.<anonymous> (/usr/lib/node_modules/npm/node_modules/read/lib/read.js:66:13)
+6 verbose stack     at emitNone (events.js:86:13)
+6 verbose stack     at Interface.emit (events.js:185:7)
+6 verbose stack     at Interface._ttyWrite (readline.js:717:16)
+6 verbose stack     at ReadStream.onkeypress (readline.js:117:10)
+6 verbose stack     at emitTwo (events.js:106:13)
+6 verbose stack     at ReadStream.emit (events.js:191:7)
+6 verbose stack     at emitKeys (internal/readline.js:389:14)
+6 verbose stack     at next (native)
+6 verbose stack     at ReadStream.onData (readline.js:963:36)
+7 verbose cwd /home/wangding/demo/circle
+8 error Linux 3.10.0-514.el7.x86_64
+9 error argv "/usr/bin/node" "/usr/bin/npm" "login"
+10 error node v6.10.1
+11 error npm  v3.10.10
+12 error canceled
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

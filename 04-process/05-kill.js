@@ -1,4 +1,6 @@
 #!/usr/bin/node
-var arg = process.argv;
-process.kill(argv[2],argv[3]);
+var pid = process.argv[2],
+    sgn = process.argv[3];
+
+process.kill(sgn,pid);
 
